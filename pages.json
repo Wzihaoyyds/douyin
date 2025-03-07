@@ -4,12 +4,21 @@
 		{
 			"path": "pages/tabbar/tabbar-1/tabbar-1",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
 			}
 		},
 		{
 			"path": "pages/tabbar/tabbar-2/tabbar-2",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
 		},
 		{
 			"path": "pages/tabbar/tabbar-3/tabbar-3",
@@ -17,11 +26,21 @@
 		},
 		{
 			"path": "pages/tabbar/tabbar-4/tabbar-4",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
 		},
 		{
 			"path": "pages/tabbar/tabbar-5/tabbar-5",
-			"style": {}
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
 		},
 		{
 			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
@@ -38,7 +57,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "抖音",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -47,7 +66,8 @@
 		"backgroundColor": "#333",
 		"color": "#8F8F94",
 		"selectedColor": "#f33e54",
-		"list": [{
+		"list": [
+			{
 				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
 				"iconPath": "static/img/tabbar/home.png",
 				"selectedIconPath": "static/img/tabbar/homeactive.png",
